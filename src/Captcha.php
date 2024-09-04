@@ -8,6 +8,7 @@ use Hyperf\Support\Filesystem\Filesystem;
 use Intervention\Image\Gd\Font;
 use Intervention\Image\Image;
 use Intervention\Image\ImageManager;
+use function Hyperf\Config\config;
 
 /**
  * @Time 2023/1/3 19:03
