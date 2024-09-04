@@ -16,6 +16,7 @@
 [![PHP Version Require](http://poser.pugx.org/sunsgne/hyperf-captcha/require/php)](https://packagist.org/packages/sunsgne/hyperf-captcha)
 
 </div>
+# 由于作者没有支持hyperf3.1 我重新拉的 当前版本支持 3.1以上
 
 # hyperf-captcha 
 Hyperf Captcha 是一个专为[**hyperf**](https://github.com/hyperf/hyperf)协程框架设计的灵活可定制验证码组件，用于生成和展示验证码图片。它支持多种验证码类型，包括字符验证码和数学公式验证码。您可以根据需要轻松配置验证码的外观、大小和文字内容。本组件不提供存储机制（如 session、redis、文件等），完全由您自行实现存储和验证机制，使其适应性和灵活性更强。
@@ -33,11 +34,11 @@ Hyperf Captcha 是一个专为[**hyperf**](https://github.com/hyperf/hyperf)协�
 ## 安装
 使用 Composer 进行安装：
 ```bash
-composer require sunsgne/hyperf-captcha
+composer require hashwallet/hyperf-captcha
 ```
 ## 生成config文件
 ```bash
-php bin/hyperf.php vendor:publish sunsgne/hyperf-captcha
+php bin/hyperf.php vendor:publish hashwallet/hyperf-captcha
 ```
 
 ## 开始
