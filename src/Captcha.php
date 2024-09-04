@@ -17,7 +17,10 @@ use function Hyperf\Config\config;
 class Captcha
 {
 
+    protected Filesystem $files;
 
+    protected ImageManager $imageManager;
+    
     /**
      * @var ImageManager->canvas
      */
