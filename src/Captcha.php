@@ -4,7 +4,7 @@ namespace Sunsgne\HyperfCaptcha;
 
 
 use Exception;
-use Hyperf\Utils\Filesystem\Filesystem;
+use Hyperf\Support\Filesystem\Filesystem;
 use Intervention\Image\Gd\Font;
 use Intervention\Image\Image;
 use Intervention\Image\ImageManager;
